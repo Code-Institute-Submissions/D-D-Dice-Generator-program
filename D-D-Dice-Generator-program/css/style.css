@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: auto;
+  font-weight: 400;
+  text-align: center;
+}
+.main-content::before {
+  margin: auto;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.3;
+  background-image: url("/images/Dragon.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+nav {
+  position: relative;
+  float: right;
+  
+}
+nav ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+  position: relative;
+  display: inline-block;
+  margin-left: 25px;
+  padding:15px;
+}
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+
+}
+nav a:hover{
+  color: gray;
+}
+
+.H1 {
+  color: grey;
+  text-align: center;
+  text-transform:capitalize;
+  font-size: 60px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.H2{
+  position: relative;
+  font-size:40;
+  color: gray;
+  font-family:'Courier New', Courier, monospace;
+  text-transform:capitalize;
+text-align: left;
+}
+#H2{
+  position: relative;
+  font-size:40;
+  color: gray;
+  font-family:'Courier New', Courier, monospace;
+  text-transform:capitalize;
+text-align: center;
+}
+#m1{
+  padding: auto;
+  position: relative;
+  color:gray;
+  text-align:left;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+#m2{
+  padding: auto;
+  position: content;
+  color:gray;
+  text-align:left;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+#td1{
+  position: relative;
+  text-align: left;
+}
+#td2{
+  position: relative;
+  text-align: center;
+}
+#td3{
+  position: relative;
+  text-align:right;
+}
+.P1 {
+  width: auto;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: gray;
+  font-size: 20px;
+  background-color:lightcyan;
+}
+#B1{
+  position: relative;
+  border-radius: 8px;
+  background-color: wheat;
+  color:black;
+  border: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 10px;
+}
+#B1:hover {
+  position: relative,;
+  background-color:darkviolet;
+  color: gray;
+  border: 2px solid gray;
+  border-radius: 30px;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+#dice{
+  padding: auto 10px;
+  position: relative;
+  text-align: center;
+  border: 1px solid;
+  border-color: red;
+  font-size: 15px;
+  color:gray;
+}
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-content {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: auto;
+    font-weight: 200;
+    text-align: center;
+  }
+  .main-content::before {
+    margin: auto;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    background-image: url("/images/Dragon.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  nav {
+    position: relative;
+    float: right;
+    
+  }
+  nav ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li{
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+    padding:15px;
+  }
+  nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+  
+  }
+  nav a:hover{
+    color: gray;
+  }
+  .H1 {
+    color: grey;
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .H2{
+    position: relative;
+    font-size:20px;
+    color: gray;
+    font-family:'Courier New', Courier, monospace;
+    text-transform:capitalize;
+  text-align: left;
+  
+  }
+  #m1{
+    padding: auto;
+    position: relative;
+    color:gray;
+    text-align:left;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  #m2{
+    padding: auto;
+    position: content;
+    color:gray;
+    text-align:left;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  #td1{
+    position: relative;
+    text-align: left;
+  }
+  #td2{
+    position: relative;
+    text-align: center;
+  }
+  #td3{
+    position: relative;
+    text-align:right;
+  }
+  .P1 {
+    width: auto;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: gray;
+    font-size: 10px;
+    background-color:lightcyan;
+  }
+  #B1{
+    position: relative;
+    border-radius: 8px;
+    background-color: wheat;
+    color:black;
+    border: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1px 10px;
+  }
+  #B1:hover {
+    position: relative,;
+    background-color:darkviolet;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 30px;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  
+  #dice{
+    padding: auto 10px;
+    position: relative;
+    text-align: center;
+    border: 1px solid;
+    border-color: red;
+    font-size: 15px;
+    color:gray;
+  }
+  
+  }

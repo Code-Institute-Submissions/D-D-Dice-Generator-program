@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/index.js"></script>
+    <title>Dice program</title>
+  </head>
+  <body class="main-content">
+    <h1 class="H1">D&D Dice Generator program</h1>
+    <div>
+      <nav>
+      <ul>
+        <li><a href="#Encounter">Encounter Distances</a></li>
+        <li><a href="#Object">Object Hit Points</a></li>
+        <li><a href="#Improvizing">Improvizing Damage</a></li>
+        <li><a href="#Weather">Weather</a></li>
+        <li><a href="#Dice">Dice rolling</a></li>
+      </ul>
+      </nav>
+    </div>
+    <br />
+
+    <h2 id="H2">Dice tables</h2>
+    
+    <h3 id="m1" id="Encounter">Encounter Distances</h3>
+    <table id="dice">
+      <tbody>
+      <tr>
+        <th>Terrain</th>
+        <th>Encounter Distance</th>
+        <th>Audible Distance</th>
+      </tr>
+      <tr>
+        <td>Arctic, desert, farmland, or grassland</td>
+        <td>6d6 x 10 feet</td>
+        <td>Trying to be quiet</td>
+        <td>2d6 x 5 feet</td>
+      </tr>
+      <tr>
+        <td>Forest, swamp, or woodland</td>
+        <td>2d8 x 10 feet</td>
+        <td>Normal noise level</td>
+        <td>2d6 x 10 feet</td>
+      </tr>
+      <tr>
+        <td>Hills or wastelands</td>
+        <td>2d10 x 10 feet</td>
+        <td>Very loud</td>
+        <td>2d6 x 50 feet</td>
+      </tr>
+      <tr>
+        <td>Jungle</td>
+        <td>2d6 x 10 feet</td>
+      </tr>
+      <tr>
+        <td>Mountains</td>
+        <td>4d10 x 10 feet</td>
+      </tr>
+      </tbody>
+    </table>
+    <h3 id="m1" id="Object">Object Hit Points</h3>
+    <table id="dice">
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <th>Size</th>
+        <th>Weak</th>
+        <th>Tough</th>
+      </tr>
+      <tr>
+        <td>TINY Bottle, Lock</td>
+        <td>1d4</td>
+        <td>2d4</td>
+      </tr>
+      <tr>
+        <td>SMALL Chest, Chain</td>
+        <td>1d6</td>
+        <td>3d6</td>
+      </tr>
+      <tr>
+        <td>MEDIUM Barrel, Chandelier</td>
+        <td>1d8</td>
+        <td>4d8</td>
+      </tr>
+      <tr>
+        <td>LARGE Cart, Window</td>
+        <td>1d10</td>
+        <td>5d10</td>
+      </tr>
+      <tr>
+        <td>HUGE+ Wagon, Hut</td>
+        <td colspan="2">DM's Discretion</td>
+      </tr>
+    </table>
+    <h3 id="m2" id="Improvizing">Improvizing Damage</h3>
+    <table id="dice">
+      <tr>
+        <th>Damage</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td>1d10</td>
+        <td>
+          Burned by coals, hit by a falling bookcase, pricked by a poison needle
+        </td>
+      </tr>
+      <tr>
+        <td>2d10</td>
+        <td>Being struck by lightning, stumbling into a fire pit</td>
+      </tr>
+      <tr>
+        <td>4d10</td>
+        <td>
+          Hit by falling rubble in a collapsing tunnel, stumbling into a vat of
+          acid
+        </td>
+      </tr>
+      <tr>
+        <td>10d10</td>
+        <td>
+          Crushed by compacting walls, hit by whirling steel blades, wading
+          through a lava stream
+        </td>
+      </tr>
+      <tr>
+        <td>18d10</td>
+        <td>
+          Being submerged in lava, being hit by a crashing flying fortress
+        </td>
+      </tr>
+      <tr>
+        <td>24d10</td>
+        <td>
+          Tumbling into a vortex of fire on the Elemental Plane of Fire, being
+          crushed in the jaws of a godlike creature or a moon-sized monster
+        </td>
+      </tr>
+    </table>
+    <h3 id="m1" id="Weather">Weather</h3>
+    <table id="dice">
+      <tr>
+        <th>d20</th>
+        <th>Temperature</th>
+      </tr>
+      <tr>
+        <td>1-14</td>
+        <td>Normal for the season</td>
+      </tr>
+      <tr>
+        <td>15-17</td>
+        <td>1d4 x 10 degrees Fahrenheit colder than normal</td>
+      </tr>
+      <tr>
+        <td>18-20</td>
+        <td>1d4 x 10 degrees Fahrenheit hotter than normal</td>
+      </tr>
+    </table>
+    <table id="dice">
+      <tr>
+        <th>d20</th>
+        <th>Wind</th>
+      </tr>
+      <tr>
+        <td>1-12</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>13-17</td>
+        <td>Light</td>
+      </tr>
+      <tr>
+        <td>18-20</td>
+        <td>Strong</td>
+      </tr>
+    </table>
+    <table id="dice">
+      <tr>
+        <th>d20</th>
+        <th>Precipitation</th>
+      </tr>
+      <tr>
+        <td>1-12</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>13-17</td>
+        <td>Light rain or light snowfall</td>
+      </tr>
+      <tr>
+        <td>18-20</td>
+        <td>Heavy rain or heavy snowfall</td>
+      </tr>
+    </table>
+    <br /><br />
+    <h2 id="H2" id="Dice">Dice rolling</h2>
+    <table class="center">
+      <tbody>
+        <td id="td1">
+          <h2 class="H2">D4</h2>
+          <p id="d4" class="P1"></p>
+          <div>
+            <button type="button" onclick="random1()" id="B1">Roll</button>
+          </div>
+          <h2 class="H2">D6</h2>
+          <p id="d6" class="P1"></p>
+          <div>
+            <button type="button" onclick="random2()" id="B1">Roll</button>
+          </div>
+        </td>
+        <td id="td2">
+          <h2 class="H2" id="td2">D8</h2>
+          <p id="d8" class="P1"></p>
+          <div>
+            <button type="button" onclick="random3()" id="B1">Roll</button>
+          </div>
+
+          <h2 class="H2" id="td2">D10</h2>
+          <p id="d10" class="P1"></p>
+          <div>
+            <button type="button" onclick="random4()" id="B1">Roll</button>
+          </div>
+        </td>
+
+        <td id="td3">
+          <h2 class="H2" id="td3">D12</h2>
+          <p id="d12" class="P1"></p>
+          <div>
+            <button type="button" onclick="random5()" id="B1">Roll</button>
+          </div>
+          <h2 class="H2" id="td3">D20</h2>
+          <p id="d20" class="P1"></p>
+          <div>
+            <button type="button" onclick="random6()" id="B1">Roll</button>
+          </div>
+        </td>
+      </tbody>
+    </table>
+  </body>
+</html>
